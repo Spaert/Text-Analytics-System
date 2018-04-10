@@ -3,7 +3,7 @@
 ![Imgur](https://i.imgur.com/Bt9uNON.png)
 
 ## Description
-* [politics.py](https://github.com/Spaert/Text-Analytics-System/blob/master/politics.py) / [entertainment.py](https://github.com/Spaert/Text-Analytics-System/blob/master/entertainment.py)  are to get the news from [Yahoo! politics](https://tw.news.yahoo.com/politics)/[Yahoo! entertainment](https://tw.news.yahoo.com/entertainment) and put the news into Kafka message queue
+* [politics.py](https://github.com/Spaert/Text-Analytics-System/blob/master/politics.py) / [entertainment.py](https://github.com/Spaert/Text-Analytics-System/blob/master/entertainment.py)  are to get the news from [Yahoo! politics](https://tw.news.yahoo.com/politics) / [Yahoo! entertainment](https://tw.news.yahoo.com/entertainment) and put the news into Kafka message queue
 
 
 
