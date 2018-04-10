@@ -15,6 +15,7 @@ After execute the  [politics.py](https://github.com/Spaert/Text-Analytics-System
 ![crawler result](https://github.com/Spaert/Text-Analytics-System/blob/master/result%20pic/1.PNG)
 
 Also we put the data to Kafka message queue we can use [getpolitics.py](https://github.com/Spaert/Text-Analytics-System) / [getentertainment.py](https://github.com/Spaert/Text-Analytics-System/blob/master/getentertainment.py) to check the data which in the Kafka message queue
+
 And then we use [Jeiba](https://github.com/fxsjy/jieba) to split the word and set up TF-IDF to compute the word similarity the result is in below image 
 ![word similarity result](https://github.com/Spaert/Text-Analytics-System/blob/master/result%20pic/2.PNG)
 
