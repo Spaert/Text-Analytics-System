@@ -1,3 +1,3 @@
 # Text-Analytics-System
-# Flow
+# Flowchart
 ![Imgur](https://i.imgur.com/Bt9uNON.png)
