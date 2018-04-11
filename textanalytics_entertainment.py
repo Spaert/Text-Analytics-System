@@ -42,22 +42,22 @@ while True:
     tfidf = transformer.fit_transform(term_doc)
     fv = tfidf.toarray()
 
-    for i in range(len(fv)):
-        print('----Document %d----' % (i))
-        print(fv[i])
-
     top = [[0 for i in range(5)]for j in range(len(fv))]
     allx = [0 for i in range(len(fv))]
     sortx = [0 for i in range(len(fv))]
 
     for i in range(len(fv)):
         for j in range(len(fv)):
+            if i == j:
+                x = 0
+                allx[j] = x
+                sortx[j] = x
             if i != j:
                 x = cosine_similarity(fv[i].reshape(1,-1),fv[j].reshape(1,-1)).astype(float)
                 print(i,j,x[0][0])
                 allx[j] = x[0][0]
                 sortx[j] = x[0][0]
-                array = np.array([i,j,x])
+                
                 #print(array)
         #print(allx) just have x
         sortx.sort(reverse = True)
