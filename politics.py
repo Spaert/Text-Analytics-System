@@ -33,6 +33,6 @@ while True:
             if(news!=''):
                 with topic.get_sync_producer() as producer:                
                     producer.produce(bytes(news,'utf-8')) 
-    time.sleep(108000)
+    time.sleep(108000A)
 
                
