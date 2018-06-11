@@ -77,4 +77,4 @@ while True:
         col.append(row)
     pd.DataFrame(col).to_csv('politics.csv',index=False,header=False)
     time.sleep(108000)
-A
+
