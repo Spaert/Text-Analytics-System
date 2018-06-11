@@ -26,6 +26,3 @@ Also we put the data to Kafka message queue we can use [getpolitics.py](https://
 
 And then we use [Jeiba](https://github.com/fxsjy/jieba) to split the word and set up TF-IDF to compute the word similarity the result is in below image 
 ![word similarity result](https://github.com/Spaert/Text-Analytics-System/blob/master/result%20pic/2.PNG)
-
-Final we use [cosine similarity from scikit-learn](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) to compare each news similarity 
-![result](https://github.com/Spaert/Text-Analytics-System/blob/master/result%20pic/3.PNG)
